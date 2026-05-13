@@ -1,0 +1,86 @@
+/* Selector para reinicio general */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Seleccion del cuerpo */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* familia de fuente */
+  background-color: #f7f9fc; /* color de fondo de la página */
+  color: #333; /* Color de texto gris oscuro */
+  line-height: 1.6; /* espaciado entre líneas 1.6 veces el tamaño de la fuente */
+}
+/* Seleccion del encabezado */
+header { 
+  background-color: #003366; /* Color de fondo del encabezado */
+  color: white; /* Color de texto del encabezado */
+  padding: 15px; /* Relleno interno de 15 pixeles */
+  text-align: center; /* Alineación del texto centrado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Aplica una sombra al borde de un elemento, dándole una apariencia elevada o con profundidad. */
+}
+/* Seleccionamos del titulo h1 del encabezado */
+header h1 { 
+  margin-bottom: 10px; /* Establece un margen inferior de 10 píxeles */
+}
+/* Seleccionamos la lista de enlaces */ 
+nav ul {
+  list-style: none; /* Elimina las viñetas de la lista */
+  display: flex; /* Coloca los elementos de la lista en fila */
+  justify-content: center; /* Centra los elementos de la lista en el contenedor */
+  gap: 15px; /* Crea un espacio de 15 pixeles horizonatal entre elementos de la lista */
+}
+/* Seleccionamos todos los elementos de la lista */
+nav ul li a {
+  text-decoration: none; /* Elimina el subrayado de los elementos de la lista */
+  color: white; /* Cambia el color del texto a blanco */
+  font-weight: bold; /* Aplica el estilo negrita al texto */
+  transition: color 0.3s ease; /* Establece una transición suave para la propiedad color */
+
+/* Seleccionamos todos los elementos de la lista para aplicar efecto*/
+}
+nav ul li a:hover {
+  color: #ffcc00; /* Aplica un cambio de color de blanco a amarillo cuando se pasa el puntero encima del texto */
+}
+/* Seleccionamos las secciones */
+section {
+  padding: 40px 20px; /* Define el espacio de relleno 40px arriba y abajo 20px izquierda y derecha */
+  max-width: 1000px; /* Limita el ancho a 1000px */
+  margin: auto; /* Aplica un margen atomatico */
+} 
+/* Seleccionamos los subtitulos h2 de la seccion */
+section h2 {
+  font-size: 2rem; /* El texto será 2 veces el tamaño base de fuente del documento */
+  color: #003366; /*Aplica un color azul a los subtitulos h2 */
+  margin-bottom: 10px; /* Agrega un margen de 10 px de bajo de cada h2 */ 
+}
+/*Seleccionamos todos los párrafos <p> que estén dentro de una etiqueta <section> */
+/* Seleccionamos todos los elementos de lista <li> dentro de una <section>*/
+section p, section li {
+  font-size: 1.1rem; /*Establece el tamaño del texto */
+  color: #444; /*Establece el color del texto a gris oscuro */
+  text-align: justify; /*Establece la alineacion del texto justificado */
+}
+/*seleccionamos todas las listas no ordenadas (<ul>) que estén dentro de una etiqueta <section>. */
+section ul {
+  padding-left: 20px; /* Agrega 20 píxeles de espacio interno en el lado izquierdo de la lista <ul> */
+  margin-top: 10px; /* Agrega 10 píxeles de espacio exterior por encima de la lista */
+}
+/* Seleccionamos los elementos de la lista, que esté dentro de <ul>, la cual a su vez está dentro de una etiqueta <section> */
+section ul li {
+  margin-bottom: 8px; /* Añade 8 píxeles de margen debajo de cada <li>. */
+}
+/* Seleccionamos la etique <footer< pie de pagina */
+footer {
+  background-color: #003366; /* Establece un color de fondo azul oscuro (azul marino) */
+  color: white; /* Cambia el color del texto a blanco */
+  text-align: center; /* Centra horizontalmente todo el texto */
+  padding: 20px; /* Añade espacio interno de 20 píxeles en todos los lados */
+  margin-top: 40px; /* Añade 40 píxeles de espacio por fuera, en la parte superior del <footer> */
+  font-size: 0.9rem; /* Define un tamaño de fuente un poco más pequeño que el normal. */
+}
+/* Appicamos diseño responsive */
+@media (max-width: 768px) { /* Aplica estilos solo cuando la panatalla sea menor a 768 px, es decir tabletas y celulares */
+  nav ul { /* Selecciona la lista <ul> dentro de <nav> (el menú de navegación). */
+    flex-direction: column; /* Cambia la dirección de los elementos flexibles de horizontal a vertical */
+    gap: 10px; /* Añade 10 píxeles de espacio vertical entre los elementos del menú (en este caso, los <li> o enlaces). */
+  }

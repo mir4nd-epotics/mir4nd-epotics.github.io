@@ -1,0 +1,88 @@
+/* Estilo general*/
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e6f0fa; /* Azul claro */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado principal */
+h1 {
+  text-align: center;
+  background-color: #003366; /* Azul oscuro */
+  color: white;
+  padding: 20px 10px;
+  margin: 0;
+}
+
+/* Imagen del logotipo */
+img {
+  display: block;
+  margin: 20px auto 10px;
+}
+
+/* Eslogan */
+h3 {
+  text-align: center;
+  color: #3b73b9;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+/* Línea divisora */
+hr {
+  border: none;
+  height: 2px;
+  background-color: #cfe2f3;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+/* Secciones principales */
+section {
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtítulos */
+h2 {
+  color: #225ca8;
+  border-left: 6px solid #3c7dc0;
+  padding-left: 10px;
+  margin-top: 0;
+}
+
+/* Párrafos */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Lista de valores */
+ul {
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 10px;
+}
+li strong {
+  color: #1a4e8a;
+}
+
+/* Pie de página */
+footer {
+  background-color: black; /* Azul oscuro */
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 10px;
+  margin-top: 30px;
+}
+
+
+
